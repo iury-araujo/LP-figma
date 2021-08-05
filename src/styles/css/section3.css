@@ -1,0 +1,48 @@
+#terceira-section {
+  display: flex;
+  margin-top: 13vh;
+  width: 75%;
+  justify-content: space-evenly; }
+  #terceira-section div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2%;
+    width: 50%; }
+    #terceira-section div h1 {
+      color: black;
+      margin-bottom: 25px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 46px; }
+    #terceira-section div h5 {
+      color: #5C5C5C;
+      font-style: normal;
+      font-weight: bold;
+      margin-bottom: 25px; }
+    #terceira-section div .terceira-section-botoes {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 75%;
+      margin-left: 0%; }
+      #terceira-section div .terceira-section-botoes .terceira-section-primary {
+        background-color: #03D6F3;
+        color: white;
+        padding: 15px;
+        border-radius: 39px;
+        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+        border: none;
+        width: 48%;
+        font-size: 1em; }
+      #terceira-section div .terceira-section-botoes .terceira-section-secundary {
+        background-color: white;
+        color: #03D6F3;
+        border: 1px solid #03D6F3;
+        padding: 15px;
+        border-radius: 39px;
+        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+        width: 48%;
+        font-size: 1em; }
+
+/*# sourceMappingURL=section3.css.map */

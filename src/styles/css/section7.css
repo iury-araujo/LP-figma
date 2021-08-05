@@ -1,0 +1,47 @@
+#setima-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15vh;
+  width: 99.5vw;
+  border-top: 1px solid #CDCDCD; }
+  #setima-section h1 {
+    color: black;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 15vh; }
+  #setima-section h5 {
+    color: #5C5C5C;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2em; }
+
+.sectima-section-inputs {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  line-height: 7vh;
+  margin-top: 10vh; }
+  .sectima-section-inputs input {
+    height: 7vh;
+    line-height: 7vh;
+    width: 52%;
+    background-color: #EFEFEF;
+    outline: none;
+    border: 1px solid #D0D0D0;
+    padding-left: 18px;
+    border-radius: 6px; }
+    .sectima-section-inputs input::placeholder {
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      color: #5C5C5C; }
+  .sectima-section-inputs span {
+    width: 45%;
+    background-color: #03D6F3;
+    color: white;
+    text-align: center;
+    border-radius: 39px;
+    cursor: pointer; }
+
+/*# sourceMappingURL=section7.css.map */

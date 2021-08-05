@@ -1,0 +1,60 @@
+#quinta-section {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+  width: 85vw;
+  align-items: center; }
+  #quinta-section img {
+    width: 75%; }
+
+.quinta-subsection {
+  width: 45%;
+  margin-left: 4%; }
+  .quinta-subsection img {
+    width: 70%; }
+  .quinta-subsection h1 {
+    color: black;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46px; }
+  .quinta-subsection h5 {
+    font-style: normal;
+    font-weight: normal;
+    color: #5C5C5C;
+    margin-bottom: 5vh;
+    font-size: 1.2em; }
+
+.image-quinta-section {
+  width: 50%; }
+
+#primeira-imagem-quinta {
+  width: 85%; }
+
+.button {
+  width: 48%;
+  text-align: center;
+  cursor: pointer; }
+
+.quinta-section-primary {
+  background-color: #03D6F3;
+  color: white;
+  padding: 15px;
+  border-radius: 39px;
+  box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15); }
+
+.quinta-section-secondary {
+  background-color: white;
+  color: #03D6F3;
+  border: 1px solid #03D6F3;
+  padding: 15px;
+  border-radius: 39px;
+  box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15); }
+
+.buttons-quinta-section {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: auto; }
+
+/*# sourceMappingURL=section5.css.map */

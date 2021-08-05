@@ -1,0 +1,94 @@
+@import "./header.scss";
+@import "./section1.scss";
+@import "./section2.scss";
+@import "./section3.scss";
+@import "./section4.scss";
+@import "./section5.scss";
+@import "./section6.scss";
+@import "./section7.scss";
+@import "./footer.scss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+:root{
+    --primary: #FFF;
+    --secondary: #112D57;
+    --menu-color: #FFFFFF;
+    --tamanho-padrao: 100vw;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+main{
+    width: 98.8vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 350px;
+}
+
+// body {
+//     margin: 0;
+//     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+//       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+//       sans-serif;
+//     -webkit-font-smoothing: antialiased;
+//     -moz-osx-font-smoothing: grayscale;
+// }
+  
+// code {
+//     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+//     monospace;
+// }
+
+
+// .App {
+//     text-align: center;
+
+//     .teste{
+//         background-color: #282c34;
+//     }
+// }
+
+// .App-logo {
+//     height: 40vmin;
+//     pointer-events: none;
+// }
+
+// @media (prefers-reduced-motion: no-preference) {
+//     .App-logo {
+//     animation: App-logo-spin infinite 20s linear;
+//     }
+// }
+
+// .App-header {
+//     background-color: #282c34;
+//     min-height: 100vh;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: center;
+//     font-size: calc(10px + 2vmin);
+//     color: white;
+// }
+
+// .App-link {
+//     color: #61dafb;
+// }
+
+// @keyframes App-logo-spin {
+//     from {
+//     transform: rotate(0deg);
+//     }
+//     to {
+//     transform: rotate(360deg);
+//     }
+// }

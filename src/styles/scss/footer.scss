@@ -1,0 +1,44 @@
+footer{
+    width: 100%;
+    background-color: var(--secondary);
+    display: flex;
+    justify-content: space-evenly;
+
+    .lado-esquerdo{
+        display: flex;  
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+
+        .menu-footer{
+            overflow-y: hidden;
+            display: flex;
+            span{
+                color: white;
+                padding: 15px;
+                line-height: 3em;
+            }
+        }
+            
+        p{
+            margin-top: 5vh;
+            color: white;
+        }
+
+    }
+
+    .lado-direito{
+
+        span{
+            color: white;
+            line-height: 12px;
+        }
+    }
+
+
+}
+
+.img-footer-desktop{
+    width: 25vw;
+    margin: 10vh;
+}
