@@ -2,7 +2,7 @@ footer{
     width: 100%;
     background-color: var(--secondary);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 
     .lado-esquerdo{
         display: flex;  
@@ -28,14 +28,24 @@ footer{
     }
 
     .lado-direito{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        box-sizing: border-box;
+        
+        figure{
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
 
-        span{
-            color: white;
-            line-height: 12px;
+            span{
+                color: white;
+
+            }
         }
+
     }
-
-
 }
 
 .img-footer-desktop{

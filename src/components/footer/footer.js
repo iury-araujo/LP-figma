@@ -2,6 +2,7 @@ import React from 'react'
 import footer from '../../img/footer.png'
 import footerImage from '../../img/bx_bx-map.png'
 import footerImage2 from '../../img/ic_baseline-phone-android.png'
+import socialMedias from '../../img/socialmedia.png'
 
 
 function Footer () {
@@ -24,7 +25,9 @@ function Footer () {
                 </figure>
                 <figure>
                     <img src={footerImage2}/>
+                    <span>(239) 555-0108 </span>
                 </figure>
+                <img src={socialMedias}/>
             </div>
         </footer>
     );

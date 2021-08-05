@@ -2,7 +2,7 @@ footer {
   width: 100%;
   background-color: var(--secondary);
   display: flex;
-  justify-content: space-evenly; }
+  justify-content: center; }
   footer .lado-esquerdo {
     display: flex;
     align-items: center;
@@ -18,9 +18,18 @@ footer {
     footer .lado-esquerdo p {
       margin-top: 5vh;
       color: white; }
-  footer .lado-direito span {
-    color: white;
-    line-height: 12px; }
+  footer .lado-direito {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    box-sizing: border-box; }
+    footer .lado-direito figure {
+      margin-bottom: 30px;
+      display: flex;
+      align-items: center; }
+      footer .lado-direito figure span {
+        color: white; }
 
 .img-footer-desktop {
   width: 25vw;
