@@ -10,7 +10,8 @@
     text-align: center;
     font-style: normal;
     font-weight: 500;
-    font-size: 46px; }
+    font-size: 46px;
+    margin-bottom: 10vh; }
 
 .cards-section-secundaria {
   width: 75%;
@@ -54,6 +55,11 @@
     color: white; }
   .cards2 a {
     color: white; }
+  .cards2 img {
+    margin-bottom: 65px; }
+
+.cards3 img {
+  margin-bottom: 70px; }
 
 @media (max-width: 650px) {
   .segundo-mobile {

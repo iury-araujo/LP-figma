@@ -1,0 +1,51 @@
+.carrinho{
+
+    width: 50vw;
+    position: fixed;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    height: 50vh;
+    top: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+
+    h1{
+        width: 100%;
+        color: white;
+        text-align: center;
+        background-color: #9500ac;
+        border-bottom: 1px solid black;
+    }
+
+    .concluir-compra{
+        width:  17%;
+        height: 10%;
+        position: absolute;
+        bottom: 5%;
+        right: 5%;
+        border-radius: 5px 5px 5px 5px;
+        cursor: pointer;
+        border: #024416 0.5px solid;
+        background-color: rgb(31, 219, 72);
+        color: #FFF;
+        font-size: 1em;
+    }   
+
+    .close--carrinho{
+        width:  4%;
+        height: 8%;
+        position: absolute;
+        top: 0;
+        right: -3px;
+        border-radius: 5px 25px 5px 5px;;
+        cursor: pointer;
+        margin-right: 5px;
+        border: #77061f 0.5px solid;
+        background-color: rgb(245, 78, 106);
+        color: #FFF;
+        font-size: 1em;
+    }
+    
+
+}

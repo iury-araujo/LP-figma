@@ -23,7 +23,7 @@ function SextaSection () {
                         <li className="notIncluse">Order Notifications</li>
                         <li className="notIncluse">Landing Pages</li>
                     </ul>
-                    <div className="buttons-sexta-section">
+                    <div className="buttons-sexta-section" data-id="0">
                         <span> Order now </span>
                     </div>
                 </div>
@@ -39,7 +39,7 @@ function SextaSection () {
                         <li>Order Notifications</li>
                         <li className="notIncluse">Landing Pages</li>
                     </ul>
-                    <div className="buttons-sexta-section">
+                    <div className="buttons-sexta-section" data-id="1">
                         <span> Order now </span> 
                     </div>
                 </div>
@@ -55,7 +55,7 @@ function SextaSection () {
                         <li>Order Notifications</li>
                         <li>Landing Pages</li>
                     </ul>
-                    <div className="buttons-sexta-section">
+                    <div className="buttons-sexta-section" data-id="2">
                         <span> Order now </span>
                     </div>
                 </div>

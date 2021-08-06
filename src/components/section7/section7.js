@@ -9,7 +9,7 @@ function SetimaSection () {
         <h5>Subscribe to get exclusive news & offer</h5>
         <div className="sectima-section-inputs">
             <input type="email" name="" id="" placeholder="Enter your Adress Email"/>
-            <span>SUBSCRIBE</span>
+            <span type="submit">SUBSCRIBE</span>
         </div>
         </section>
     )

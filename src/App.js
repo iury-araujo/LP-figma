@@ -8,12 +8,13 @@ import QuintaSection from './components/section5/section5.js'
 import SextaSection from './components/section6/section6.js'
 import SetimaSection from './components/section7/section7.js'
 import Footer from './components/footer/footer.js'
-
+import Modal from './components/modal/modal.js'
 
 function App() {
+
   return (
-    <>
-      <Cabecalho/>
+    <> 
+      <Cabecalho/> 
       <PrimeiraSection/>
       <SegundaSection/>
       <TerceiraSection/>
@@ -22,8 +23,11 @@ function App() {
       <SextaSection/>
       <SetimaSection/>
       <Footer/>
+      <Modal/>
     </>
   );
 }
 
-export default App;
+
+
+export default App
