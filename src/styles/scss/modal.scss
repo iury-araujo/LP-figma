@@ -1,14 +1,15 @@
 .carrinho{
 
-    width: 50vw;
+    width: 30vw;
     position: fixed;
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-    height: 50vh;
+    height: 48vh;
     top: 25vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 25px;
+    overflow: hidden;
 
     h1{
         width: 100%;
@@ -16,36 +17,71 @@
         text-align: center;
         background-color: #9500ac;
         border-bottom: 1px solid black;
+        overflow: hidden;
+
     }
 
     .concluir-compra{
-        width:  17%;
+        width:  50%;
         height: 10%;
         position: absolute;
-        bottom: 5%;
-        right: 5%;
+        bottom: 2%;
         border-radius: 5px 5px 5px 5px;
         cursor: pointer;
-        border: #024416 0.5px solid;
+        border: #056923 0.5px solid;
         background-color: rgb(31, 219, 72);
         color: #FFF;
-        font-size: 1em;
+        font-size: 1.2em;
+        overflow: hidden;
     }   
 
     .close--carrinho{
         width:  4%;
-        height: 8%;
+        height: 10%;
         position: absolute;
-        top: 0;
-        right: -3px;
+        top: 10px;
+        right: 10px;
         border-radius: 5px 25px 5px 5px;;
         cursor: pointer;
         margin-right: 5px;
-        border: #77061f 0.5px solid;
-        background-color: rgb(245, 78, 106);
+        background-color: inherit;
         color: #FFF;
-        font-size: 1em;
+        font-size: 1.3em;
+        border: none;
+        overflow: hidden;
     }
-    
+
+    div{
+        width: 90%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 80%;
+        margin-top: -2%;
+        overflow: hidden;
+
+        div{
+            display: flex;
+            width: 60%;
+            height: 70%;
+            flex-direction: column;
+            align-items: flex-start;
+            color: #79018b;
+            font-size: 1.5em;
+            margin-right: -8%;
+            margin-top: 2%;
+            overflow: hidden;
+
+            h4{
+                color: #ca44df;
+                overflow: hidden;
+            }
+
+            h3{
+                overflow: hidden;
+            }
+
+        }
+    }
 
 }

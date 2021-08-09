@@ -1,0 +1,29 @@
+.carrinho-geral{
+
+    display: none;
+    cursor: pointer;
+    overflow: hidden;
+
+    img{
+        position: fixed;
+        bottom: 45px;
+        right: 45px;
+        filter: opacity(0.5);
+    }
+
+    span{
+        background-color: red;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        position: fixed;
+        bottom: 37px;
+        right: 80px;
+        filter: opacity(0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+}

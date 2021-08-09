@@ -5,13 +5,16 @@ function Modal () {
     return (
         <>
         <div className="carrinho">
-            <h1>Carrinho</h1>
-            <button className="concluir-compra"> Comprar </button>
+            <h1>Lista</h1>
+            <button className="concluir-compra"> Adicionar ao carrinho </button>
             <button className="close--carrinho"> X </button>
             <div>
-                <h2></h2>
-                <h3></h3>
-                <img src="" style={{width: '100px'}}/>    
+            <img src="" style={{width: '130px'}}/>
+                <div>
+                    <h2></h2>
+                    <h4></h4>
+                    <h3></h3>  
+                </div>
             </div>
 
         </div>

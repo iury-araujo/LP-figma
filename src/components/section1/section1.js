@@ -14,7 +14,7 @@ function PrimeiraSection () {
                         <span className="button-primary">get started</span>
                         <span className="button-secondary">try for free</span>
                     </div>
-                    <img src={imagemPrincipal} alt="" width="65%"/>
+                    <img src={imagemPrincipal} alt="" width="95%"/>
                 </div>
         </section>
     );

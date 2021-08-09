@@ -3,7 +3,6 @@ import footer from '../../img/footer.png'
 import footerImage from '../../img/bx_bx-map.png'
 import footerImage2 from '../../img/ic_baseline-phone-android.png'
 import socialMedias from '../../img/socialmedia.png'
-import $ from 'jquery'
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 function Footer () {
@@ -28,7 +27,7 @@ function Footer () {
                     <img src={footerImage2} alt="Icone de celular"/>
                     <span>(239) 555-0108 </span>
                 </figure>
-                <img src={socialMedias}/>
+                <img src={socialMedias} alt="Icone de celular"/>
             </div>
         </footer>
     );

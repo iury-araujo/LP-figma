@@ -1,38 +1,39 @@
 /* Section 1*/
 main #section-principal {
-  width: 99.5vw;
+  width: 100vw;
+  height: auto;
   height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  min-width: 350px;
   background: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%);
-  margin-left: -0.5vw; }
+  margin-left: -0.5vw;
+  min-width: 500px; }
 
 .principal {
-  margin-top: 13%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 6%; }
+  margin-bottom: 6%;
+  margin-top: 15%; }
 
-section h1 {
-  font-size: 2.5em;
-  color: var(--primary);
-  margin-bottom: 15px; }
 section img {
   margin-bottom: 3vh;
   display: flex; }
 
 .container-principal {
   text-align: center;
-  width: 40vw;
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 9vh; }
+  .container-principal h1 {
+    font-size: 2.5em;
+    color: var(--primary);
+    margin-bottom: 10%; }
 
 .texto {
   color: var(--primary); }
@@ -74,36 +75,43 @@ section img {
 .escrita-principal {
   font-style: normal;
   font-weight: 900;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 3.3em; }
 
 .escrita-subPrincipal {
-  color: #E5E5E5; }
+  margin-top: -4%;
+  color: #E5E5E5;
+  margin-bottom: 2%; }
 
 .principal-mobile {
   display: none; }
 
-@media (max-width: 650px) {
-  .container-principal {
-    width: 50vw;
-    margin-top: 20%; }
+@media (max-width: 670px) {
+  .principal {
+    margin-top: 27vh; }
+    .principal img {
+      width: 65%; }
 
-  .principal-desktop {
-    display: none; }
+  .escrita-principal {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.55em; }
 
   .buttons-princpal {
-    margin-top: 15%;
     flex-direction: column;
-    align-items: center;
-    height: 18vh; }
-
-  .button-primary, .button-secondary {
-    margin: 5px;
-    width: 45vw;
-    font-size: 0.9em;
-    height: 100%; }
-
-  .principal-mobile {
-    width: 100%;
-    display: block; } }
+    width: 45%;
+    height: auto; }
+    .buttons-princpal .button-primary {
+      font-style: normal;
+      font-weight: 500;
+      width: 100%;
+      height: 7vh;
+      margin: 3%;
+      margin-left: 0px; }
+    .buttons-princpal .button-secondary {
+      width: 100%;
+      height: 7vh;
+      margin: 3%;
+      margin-left: 0px; } }
 
 /*# sourceMappingURL=section1.css.map */
